@@ -37,7 +37,7 @@ source /etc/profile
 sudo yum install git -y
 
 #clone codenjoy repo
-git clone https://github.com/fausternet/codenjoy.git
+git clone https://github.com/codenjoyme/codenjoy.git
 
 #lanch codenjoy server
 cd codenjoy/CodingDojo/games/engine/
