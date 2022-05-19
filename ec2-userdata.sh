@@ -40,10 +40,11 @@ sudo yum install git -y
 git clone https://github.com/codenjoyme/codenjoy.git
 
 #checkout working commit
-git checkout 7c8e2ceb2d74dcb18a344ca32bcacf5bd4a2bb39
+cd codenjoy
+sudo git checkout 7c8e2ceb2d74dcb18a344ca32bcacf5bd4a2bb39
 
 #lanch codenjoy server
-cd codenjoy/CodingDojo/games/engine/
+cd CodingDojo/games/engine/
 mvn clean install -N -DskipTests=true
 cd ..
 mvn clean install -N -DskipTests=true
